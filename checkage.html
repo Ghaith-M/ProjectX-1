@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
     <title></title>
 </head>
 <body>
@@ -18,7 +19,28 @@
                 </td>
             </tr>
         </tbody></table>
+        <video autoplay muted loop id="myVideo">
+            <source src="./img/p1.mp4" type="video/mp4">
+          </video>
+          
+          
+            <button id="myBtn" onclick="myFunction()">Pause</button>
 
+          
+          <script>
+          var video = document.getElementById("myVideo");
+          var btn = document.getElementById("myBtn");
+          
+          function myFunction() {
+            if (video.paused) {
+              video.play();
+              btn.innerHTML = "Pause";
+            } else {
+              video.pause();
+              btn.innerHTML = "Play";
+            }
+          }
+          </script>
     </div>
 </body>
 </html>
