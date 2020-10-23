@@ -1,28 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="MixOlogy">
-	  <meta name="keywords" content="MixOlogy">
-  	<meta name="author" content="AnAs Flah,GHaith Madhkour">
-    <title>Mix Your Life </title>
-    <link rel="stylesheet" href="./css/Mystyle.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixology</title>
+</head>
+<body>
+    <div class="container">
+        <span class="text2">mixology</span>
+    </div>
     <header>
-      <div class="container">
-        <div id="headone">
-          <h1><span class="highlight">  𝑀🥂𝓍 ❁𝓁💞𝑔𝓎 </h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="./img/p.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <h1><span>MixOlOgy</span></h1>
+  <p>Mix your Life</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+       <div class="main">
+       <div class="logo">
+           <img src="">
+       </div>
+        <ul>
+        <div  class="main">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Virgin cocktails</a></li>
+            <li><a href="#">Virgin cocktails</a></li>
             <li><a href="#">Random Cocktails</a></li>
-            <li><a href="#">Virgin Cocktails</a></li>
-          </ul>
-        </nav>
-      </div>
+            <li><a href="#">Privacy</a></li>
+        </div>
+        
+      </ul>
     </header>
-    </body>
-    </html>
+    
+</body>
+</html>
