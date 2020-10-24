@@ -4,19 +4,36 @@
   padding:0;
   font-family:century Gothic;
 }
-
 body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
+  display: flex; align-items: center;justify-content: center;
+  flex-direction: column;
 }
+#cont h1 {
+  font-size: 50px;
+  margin-bottom: 350px;
+}
+#btn1,#btn2{
+  font-size: 20px;
+  font-weight: 800;
+  border: 1px solid black;
+  padding: 25px;
+}
+#flex-cont{
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#flex-cont div{
+  flex-grow: 1;
+  margin:15px 40px;
+}
 #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
   z-index:-1;
-  width: 105vw;
+  width: 100vw;
   height:120vh;
 }
 
@@ -104,7 +121,7 @@ ul li a:hover{
   color:#000;
 }
 .main{
-  max-width: 2000px;
+  max-width: 100%;
   margin: auto;
 
 }
@@ -137,7 +154,16 @@ ul li a:hover{
 }
 
 
-
+footer{
+  padding:14px;
+  margin-top:802px;
+  color:white;
+  background-color:black;
+  text-align: center;
+  width: 100%;
+  
+}
+#cont {margin: 45px 45px;}
 
 
 

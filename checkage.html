@@ -4,27 +4,20 @@
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
     <title></title>
 </head>
-<body>
-    <div class="w3-container" style="text-align: center;">
-        <h2>Are you of legal drinking age?</h2>
-        
-        <table style="width: 100%">
-            <tbody><tr>
-                <td style="width: 50%">
-                    <input type="submit" value="YES" class="cust_button" onclick="#" style="background-color: #009688; display: block; width: 100px; margin: 10px auto 10px auto;">
-                </td>
-                
-                <td style="width: 50%">
-                    <input type="submit" value="NO" class="cust_button" onclick="ageVerification_no()" style="background-color: #009688; display: block; width: 100px; margin: 10px auto 10px auto;">
-                </td>
-            </tr>
-        </tbody></table>
+<body id="cont">
+    <div id="flex-cont">
+    <div id="btn1">yes</div>
+    <h1>Are you of legal drinking age ? &#128286 </h1>
+    <div id="btn2">no</div>
+    </div>
+    
+
         <video autoplay muted loop id="myVideo">
-            <source src="./img/p1.mp4" type="video/mp4">
+            <source src="./img/p3.mp4" type="video/mp4">
           </video>
           
           
-            <button id="myBtn" onclick="myFunction()">Pause</button>
+            <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
 
           
           <script>
@@ -42,5 +35,11 @@
           }
           </script>
     </div>
+    
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./js/coder.js"></script>
+<footer>
+    <p>MixOlOgy Service, Copyright &copy; Only For Ghaith mahdkour ceo Founder && AnAs Flah ceo Partner</p>
+  </footer>
 </html>
